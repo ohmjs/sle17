@@ -8,7 +8,7 @@ This site contains the artifacts and supporting materials for our paper
 ## Links
 
 - Try the [online visualization][online-viz] as mentioned in Section 3
-- Source code:
+- Source code for the ES5 parsers described in Section 4:
   * [src/standard.js][standard]: the classes for a standard (non-incremental) packrat parser
   * [src/incremental.js][inc]: additional classes for implementing an incremental parser as described in the paper
   * [src/es5.js][es5]: ES5 grammar, which can be instantiated into either a standard or incremental parser
