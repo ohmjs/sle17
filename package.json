@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "devDependencies": {
+    "acorn": "5.1.2",
+    "commander": "^2.11.0",
+    "faucet": "0.0.1",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tape test/test-*.js | faucet"
+  }
+}
