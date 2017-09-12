@@ -9,14 +9,17 @@ This site contains the artifacts and supporting materials for our paper
 
 - Try the [online visualization][online-viz] as mentioned in Section 3
 - Source code:
-  * [src/standard.js](https://github.com/ohmlang/sle17/blob/master/src/standard.js):
-    the classes for a standard (non-incremental) packrat parser
-  * [src/incremental.js](https://github.com/ohmlang/sle17/blob/master/src/incremental.js):
-    additional classes for implementing an incremental parser as described in the paper
-  * [src/es5.js](https://github.com/ohmlang/sle17/blob/master/src/es5.js):
-    ES5 grammar, which can be instantiated into either a standard or incremental parser
-- [Git repository](https://github.com/ohmlang/sle17) with complete artifacts, including benchmark scripts, etc.
+  * [src/standard.js][standard]: the classes for a standard (non-incremental) packrat parser
+  * [src/incremental.js][inc]: additional classes for implementing an incremental parser as described in the paper
+  * [src/es5.js][es5]: ES5 grammar, which can be instantiated into either a standard or incremental parser
+- [Git repository][repo] with complete artifacts, including benchmark scripts, etc.
+- [Ohm][ohm] is our open-source packrat parsing framework, which supports incremental parsing as described in the paper
 
 [paper]: https://ohmlang.github.io/pubs/sle2017/incremental-packrat-parsing.pdf
 [sle]: https://conf.researchr.org/track/sle-2017/sle-2017-papers
 [online-viz]: https://incremental-packrat.github.io/sle/memo-viz.html
+[standard]: https://github.com/ohmlang/sle17/blob/master/src/standard.js
+[inc]: https://github.com/ohmlang/sle17/blob/master/src/incremental.js
+[es5]: https://github.com/ohmlang/sle17/blob/master/src/es5.js
+[repo]: https://github.com/ohmlang/sle17
+[ohm]: https://ohmlang.github.io/
