@@ -409,11 +409,11 @@ digit = "0".."9"</pre>
           return Promise.resolve();
         }
         Velocity(invalidEls, 'fadeOut', {
-          duration: 2000,
+          duration: 1500,
           display: 'flex'
         });
         return Velocity(invalidEls, 'slideUp', {
-          duration: 2000
+          duration: 1000
         });
       },
       replaceInputRange(from, to, text) {
@@ -435,7 +435,7 @@ digit = "0".."9"</pre>
         });
       },
       transitionNewEntries(optDuration) {
-        const duration = typeof optDuration === 'number' ? optDuration : 3000;
+        const duration = typeof optDuration === 'number' ? optDuration : 1000;
         const newEls = this.$el.querySelectorAll('.extents.new');
 
         Velocity.hook(newEls, 'display', 'flex');
