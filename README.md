@@ -24,7 +24,7 @@ presented at [SLE'17][sle]. The submitted artifacts consist of the following:
 
 [paper]: https://ohmlang.github.io/pubs/sle2017/incremental-packrat-parsing.pdf
 [sle]: https://conf.researchr.org/track/sle-2017/sle-2017-papers
-[online-viz]: https://incremental-packrat.github.io/sle/memo-viz.html
+[online-viz]: https://ohmlang.github.io/sle17/memo-viz.html
 
 Setup
 -----
